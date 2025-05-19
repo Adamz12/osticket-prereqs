@@ -38,10 +38,10 @@ I started by provisioning an Azure VM in the osticket resource group named ostic
 <br />
 
 <p>
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.imgur.com/k3NaUIz.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
 </p>
 <p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Next, I retrieved the VM’s public IP from the Azure portal and opened Microsoft Remote Desktop on my Mac. I created a new connection named “osticket-vm,” pasted the IP into the PC name field, and used my admin credentials to log in.
 </p>
 <br />
 
