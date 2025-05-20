@@ -52,3 +52,10 @@ Next, I retrieved the VM’s public IP from the Azure portal and opened Microsof
 I downloaded the latest osTicket release from the official GitHub repository, extracted the ZIP archive, renamed the resulting folder to osTicket-Installation-Files, and placed it on my desktop for easy access during the setup.
 </p>
 <br />
+
+<p>
+<img src="https://i.imgur.com/5peaeXs.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next, I enabled the CGI module in IIS so PHP-CLI scripts and other CGI applications would run. I opened Control Panel, navigated to Programs → Programs and Features, and clicked Turn Windows features on or off. In the Windows Features dialog, I expanded Internet Information Services → World Wide Web Services → Application Development Features, checked CGI, and clicked OK. Windows then installed the CGI feature
+</p>
