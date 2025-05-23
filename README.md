@@ -67,3 +67,10 @@ Next, I enabled the CGI module in IIS so PHP-CLI scripts and other CGI applicati
 Open the osTicket-Installation-Files folder on the desktop, double-click PHPManagerForIIS_V1.5.0.msi, and follow the installer’s on-screen instructions. When the setup finishes, PHP Manager will appear in the IIS console for PHP configuration.
 </p>
 
+<p>
+<img src="https://i.imgur.com/DnV6KB8.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open the osTicket-Installation-Files folder on the desktop, double-click rewrite_amd64_en-US.msi, and follow the on-screen prompts. After installation, the URL Rewrite option will appear in the IIS console.
+</p>
+
