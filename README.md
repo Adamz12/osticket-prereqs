@@ -151,4 +151,11 @@ Open File Explorer and navigate to C:\inetpub\wwwroot\osTicket\include. Right-cl
 Next, secure the config file by granting write access to IIS. In File Explorer, go to C:\inetpub\wwwroot\osTicket\include, right-click ost-config.php and choose Properties. On the Security tab click Advanced, then Disable inheritance and select Convert inherited permissions into explicit permissions. Click Add, choose Select a principal, type Everyone, grant Full control, and click OK through all dialogs. This ensures IIS can read and write the config file as needed.
 </p>
 
+<p>
+<img src="https://i.imgur.com/9fWyXvd.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open your browser to your osTicket site (e.g. http://localhost/osTicket), click Continue on the setup screen, and when prompted enter your administrator credentials (the email/username and password you chose during configuration).
+</p>
+
 
