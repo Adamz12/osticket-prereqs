@@ -130,4 +130,11 @@ Next, restart IIS to pick up the new files. In IIS Manager, select your server i
 Open IIS Manager, expand Sites in the left tree, select the osTicket site, and then click *Browse :80 in the Actions pane. Your default browser will launch and load the osTicket setup page.
 </p>
 
+<p>
+<img src="https://i.imgur.com/WIAc7yb.jpeg" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+If any PHP extensions are missing on the osTicket home page, open IIS Manager, expand Sites → osTicket, then double-click PHP Manager. In Enable or Disable Extensions, check php_imap.dll, php_intl.dll, and php_opcache.dll, click Apply, and finally restart the site (or IIS) to load the new extensions.
+</p>
+
 
