@@ -102,4 +102,11 @@ Open the osTicket-Installation-Files folder, double-click VC_redist.x86.exe, and
 Open the osTicket-Installation-Files folder, double-click mysql-5.5.62-win32.msi, select Typical Setup, ensure Launch Configuration Wizard is checked, and complete the install. In the Configuration Wizard choose Standard Configuration, set Username to root and Password to root, then finish the wizard.
 </p>
 
+<p>
+<img src="https://i.imgur.com/zH9KaYF.jpeg" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open IIS Manager with administrative rights, then click PHP Manager. Choose Register new PHP version, click the browse button (⋯), navigate to C:\PHP\php-cgi.exe, and click OK. Finally, restart IIS by selecting the server node and clicking Stop then Start in the Manage Server panel.
+</p>
+
 
