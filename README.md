@@ -81,4 +81,11 @@ Open the osTicket-Installation-Files folder on the desktop, double-click rewrite
 Open File Explorer, navigate to the C: drive, right-click in the blank area, choose New → Folder, name it php, and press Enter. This directory will hold your PHP binaries.
 </p>
 
+<p>
+<img src="https://i.imgur.com/wOG3NLE.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Extract the php-7.3.8-nts-Win32-VC15-x86.zip archive from your osTicket-Installation-Files folder directly into C:\php so that all PHP files unpack into that directory.
+</p>
+
 
