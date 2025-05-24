@@ -168,4 +168,11 @@ Open your browser to your osTicket site (e.g. http://localhost/osTicket), click 
 Next, install HeidiSQL by running its installer from the osTicket-Installation-Files folder. When HeidiSQL opens, click New Session, set Username to root and Password to root, then click Connect. Once connected, right-click on the server entry (e.g. localhost or Unnamed), choose Create new → Database, enter osTicket as the database name, and click OK.
 </p>
 
+<p>
+<img src="https://i.imgur.com/rItBzqb.png" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+On the osTicket setup page, enter your database details—MySQL Database: osTicket, MySQL Username: root, MySQL Password: root—then click Install Now!. Once you see the “Congratulations” message, the installation is complete. Make sure the administrator email is different from the default system email to avoid routing conflicts.
+</p>
+
 
