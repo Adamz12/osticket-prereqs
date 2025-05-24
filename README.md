@@ -88,4 +88,11 @@ Open File Explorer, navigate to the C: drive, right-click in the blank area, cho
 Extract the php-7.3.8-nts-Win32-VC15-x86.zip archive from your osTicket-Installation-Files folder directly into C:\php so that all PHP files unpack into that directory.
 </p>
 
+<p>
+<img src="https://i.imgur.com/v8Irx7E.jpeg" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Open the osTicket-Installation-Files folder, double-click VC_redist.x86.exe, and follow the installer’s on-screen instructions. This installs the required Visual C++ runtime for PHP.
+</p>
+
 
