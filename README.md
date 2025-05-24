@@ -116,4 +116,11 @@ Open IIS Manager with administrative rights, then click PHP Manager. Choose Regi
 In the osTicket-Installation-Files folder, unzip osTicket-v1.15.8.zip within the same folder. Then copy the resulting upload folder within the osTicket-v1.15.8.zip into C:\inetpub\wwwroot, and rename that folder to "osTicket".
 </p>
 
+<p>
+<img src="https://i.imgur.com/xjMMjdI.jpeg" alt="Disk Sanitization Steps"/>
+</p>
+<p>
+Next, restart IIS to pick up the new files. In IIS Manager, select your server in the left pane, then click Stop in the right-hand Manage Server panel. Once it’s stopped, click Start to bring IIS back online. This ensures your freshly deployed osTicket site is served correctly.
+</p>
+
 
