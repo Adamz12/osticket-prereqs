@@ -68,7 +68,7 @@ Open the osTicket-Installation-Files folder on the desktop, double-click PHPMana
 </p>
 
 <p>
-<img src="https://i.imgur.com/DnV6KB8.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/bNPcWqNW/installing-remad.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open the osTicket-Installation-Files folder on the desktop, double-click rewrite_amd64_en-US.msi, and follow the on-screen prompts. After installation, the URL Rewrite option will appear in the IIS console.
