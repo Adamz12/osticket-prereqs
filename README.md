@@ -124,52 +124,49 @@ Next, restart IIS to pick up the new files. In IIS Manager, select your server i
 </p>
 
 <p>
-<img src="https://i.imgur.com/1IuWfZc.jpeg" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/8cHKzGHw/load-os-Ticket.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open IIS Manager, expand Sites in the left tree, select the osTicket site, and then click *Browse :80 in the Actions pane. Your default browser will launch and load the osTicket setup page.
 </p>
 
 <p>
-<img src="https://i.imgur.com/WIAc7yb.jpeg" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/VsRDMYqW/enable-php-features.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 If any PHP extensions are missing on the osTicket home page, open IIS Manager, expand Sites → osTicket, then double-click PHP Manager. In Enable or Disable Extensions, check php_imap.dll, php_intl.dll, and php_opcache.dll, click Apply, and finally restart the site (or IIS) to load the new extensions.
 </p>
 
 <p>
-<img src="https://i.imgur.com/OXKbrmH.jpeg" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/Pqjw2Dhp/rename-file.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open File Explorer and navigate to C:\inetpub\wwwroot\osTicket\include. Right-click ost-sampleconfig.php, choose Rename, and change the filename to ost-config.php. This creates your active configuration file for osTicket.
 </p>
 
 <p>
-<img src="https://i.imgur.com/1EE4kPJ.jpeg" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/B68PvBBz/assigining-permissions.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next, secure the config file by granting write access to IIS. In File Explorer, go to C:\inetpub\wwwroot\osTicket\include, right-click ost-config.php and choose Properties. On the Security tab click Advanced, then Disable inheritance and select Convert inherited permissions into explicit permissions. Click Add, choose Select a principal, type Everyone, grant Full control, and click OK through all dialogs. This ensures IIS can read and write the config file as needed.
 </p>
 
 <p>
-<img src="https://i.imgur.com/9fWyXvd.png" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/1RrsqN77/credentials-osticket.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open your browser to your osTicket site (e.g. http://localhost/osTicket), click Continue on the setup screen, and when prompted enter your administrator credentials (the email/username and password you chose during configuration).
 </p>
 
 <p>
-<img src="https://i.imgur.com/Ar3dDyC.png" alt="Disk Sanitization Steps"/>
-</p>
-<p>
-<img src="https://i.imgur.com/le2FQnv.png" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/0N0cfPgv/installing-hedi-sql.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Next, install HeidiSQL by running its installer from the osTicket-Installation-Files folder. When HeidiSQL opens, click New Session, set Username to root and Password to root, then click Connect. Once connected, right-click on the server entry (e.g. localhost or Unnamed), choose Create new → Database, enter osTicket as the database name, and click OK.
 </p>
 
 <p>
-<img src="https://i.imgur.com/rItBzqb.png" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/m2rf1pHh/credentials-mysql.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 On the osTicket setup page, enter your database details—MySQL Database: osTicket, MySQL Username: root, MySQL Password: root—then click Install Now!. Once you see the “Congratulations” message, the installation is complete. Make sure the administrator email is different from the default system email to avoid routing conflicts.
