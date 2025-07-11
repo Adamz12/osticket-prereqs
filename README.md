@@ -75,35 +75,35 @@ Open the osTicket-Installation-Files folder on the desktop, double-click rewrite
 </p>
 
 <p>
-<img src="https://i.imgur.com/fwW6pPo.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/0yr5Y2Lg/Create-php-directory.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open File Explorer, navigate to the C: drive, right-click in the blank area, choose New → Folder, name it php, and press Enter. This directory will hold your PHP binaries.
 </p>
 
 <p>
-<img src="https://i.imgur.com/wOG3NLE.jpeg" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/s27rmBmL/unzipping-phpcontent-tophpfolder.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Extract the php-7.3.8-nts-Win32-VC15-x86.zip archive from your osTicket-Installation-Files folder directly into C:\php so that all PHP files unpack into that directory.
 </p>
 
 <p>
-<img src="https://i.imgur.com/v8Irx7E.jpeg" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/kG5z0DNq/installing-vcredit.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open the osTicket-Installation-Files folder, double-click VC_redist.x86.exe, and follow the installer’s on-screen instructions. This installs the required Visual C++ runtime for PHP.
 </p>
 
 <p>
-<img src="https://i.imgur.com/ZX2MQqJ.jpeg" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/Hx6P9HqK/installing-mysql.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open the osTicket-Installation-Files folder, double-click mysql-5.5.62-win32.msi, select Typical Setup, ensure Launch Configuration Wizard is checked, and complete the install. In the Configuration Wizard choose Standard Configuration, set Username to root and Password to root, then finish the wizard.
 </p>
 
 <p>
-<img src="https://i.imgur.com/zH9KaYF.jpeg" alt="Disk Sanitization Steps"/>
+<img src="https://i.postimg.cc/P5byMTZ4/register-php-within-iis.png" height="800" width="800" alt="Disk Sanitization Steps"/>
 </p>
 <p>
 Open IIS Manager with administrative rights, then click PHP Manager. Choose Register new PHP version, click the browse button (⋯), navigate to C:\PHP\php-cgi.exe, and click OK. Finally, restart IIS by selecting the server node and clicking Stop then Start in the Manage Server panel.
