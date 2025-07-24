@@ -93,9 +93,9 @@ Extract the php-7.3.8-nts-Win32-VC15-x86.zip archive from your osTicket-Installa
 Open the osTicket-Installation-Files folder, double-click VC_redist.x86.exe, and follow the installer’s on-screen instructions. This installs the required Visual C++ runtime for PHP.
 </p>
 
-<p>
-<img src="https://i.postimg.cc/Hx6P9HqK/installing-mysql.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+![Installing-mysql](./images/installing-mysql.png) 
+
 <p>
 Open the osTicket-Installation-Files folder, double-click mysql-5.5.62-win32.msi, select Typical Setup, ensure Launch Configuration Wizard is checked, and complete the install. In the Configuration Wizard choose Standard Configuration, set Username to root and Password to root, then finish the wizard.
 </p>
