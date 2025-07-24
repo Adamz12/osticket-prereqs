@@ -107,9 +107,10 @@ Open the osTicket-Installation-Files folder, double-click mysql-5.5.62-win32.msi
 Open IIS Manager with administrative rights, then click PHP Manager. Choose Register new PHP version, click the browse button (⋯), navigate to C:\PHP\php-cgi.exe, and click OK. Finally, restart IIS by selecting the server node and clicking Stop then Start in the Manage Server panel.
 </p>
 
-<p>
-<img src="https://i.postimg.cc/mr808QM8/moving-upload-file-to-root.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+![Moving-file](./images/moving-upload-file-to-root.png) 
+
+
 <p>
 In the osTicket-Installation-Files folder, unzip osTicket-v1.15.8.zip within the same folder. Then copy the resulting upload folder within the osTicket-v1.15.8.zip into C:\inetpub\wwwroot, and rename that folder to "osTicket".
 </p>
