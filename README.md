@@ -46,9 +46,9 @@ Next, retrieve the VM’s public IP from the Azure portal and launch Microsoft R
 </p>
 <br />
 
-<p>
-<img src="https://i.postimg.cc/fWHvdKSL/downoading-files.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+![Download Files](./images/downoading-files.png)      
+
 <p>
 From the official GitHub repository, download the latest osTicket ZIP release, extract its contents, rename the extracted folder to osTicket-Installation-Files, and move it to the desktop for easy access - https://drive.google.com/uc?export=download&id=1b3RBkXTLNGXbibeMuAynkfzdBC1NnqaD
 </p>
