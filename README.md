@@ -60,9 +60,8 @@ From the official GitHub repository, download the latest osTicket ZIP release, e
 Next, enable the CGI module in IIS so PHP-CLI scripts and other CGI applications can run. Open Control Panel → Programs → Programs and Features, click Turn Windows features on or off, then expand Internet Information Services → World Wide Web Services → Application Development Features, check CGI, and click OK to install.
 </p>
 
-<p>
-<img src="https://i.postimg.cc/KcJygd5M/installing-php-iis.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+![Installing-php](./images/installing-php-iis.png) 
+
 <p>
 Open the osTicket-Installation-Files folder on the desktop, double-click PHPManagerForIIS_V1.5.0.msi, and follow the installer’s on-screen instructions. When the setup finishes, PHP Manager will appear in the IIS console for PHP configuration.
 </p>
