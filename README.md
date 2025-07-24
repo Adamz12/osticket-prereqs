@@ -73,9 +73,9 @@ Open the osTicket-Installation-Files folder on the desktop, double-click PHPMana
 Open the osTicket-Installation-Files folder on the desktop, double-click rewrite_amd64_en-US.msi, and follow the on-screen prompts. After installation, the URL Rewrite option will appear in the IIS console.
 </p>
 
-<p>
-<img src="https://i.postimg.cc/0yr5Y2Lg/Create-php-directory.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+![Creating-php-directory](./images/Create-php-directory.png) 
+
 <p>
 Open File Explorer, navigate to the C: drive, right-click in the blank area, choose New → Folder, name it php, and press Enter. This directory will hold your PHP binaries.
 </p>
