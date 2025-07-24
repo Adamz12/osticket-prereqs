@@ -123,9 +123,10 @@ In the osTicket-Installation-Files folder, unzip osTicket-v1.15.8.zip within the
 Next, restart IIS to pick up the new files. In IIS Manager, select your server in the left pane, then click Stop in the right-hand Manage Server panel. Once it’s stopped, click Start to bring IIS back online. This ensures your freshly deployed osTicket site is served correctly.
 </p>
 
-<p>
-<img src="https://i.postimg.cc/8cHKzGHw/load-os-Ticket.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+
+![Load-osTicket](./images/load-osTicket.png) 
+
 <p>
 Open IIS Manager, expand Sites in the left tree, select the osTicket site, and then click *Browse :80 in the Actions pane. Your default browser will launch and load the osTicket setup page.
 </p>
