@@ -54,9 +54,8 @@ From the official GitHub repository, download the latest osTicket ZIP release, e
 </p>
 <br />
 
-<p>
-<img src="https://i.postimg.cc/P5MbtQHT/turning-on-cgi.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+![Turning on CGI](./images/turning-on-cgi.png)      
+
 <p>
 Next, enable the CGI module in IIS so PHP-CLI scripts and other CGI applications can run. Open Control Panel → Programs → Programs and Features, click Turn Windows features on or off, then expand Internet Information Services → World Wide Web Services → Application Development Features, check CGI, and click OK to install.
 </p>
