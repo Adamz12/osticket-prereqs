@@ -66,9 +66,9 @@ Next, enable the CGI module in IIS so PHP-CLI scripts and other CGI applications
 Open the osTicket-Installation-Files folder on the desktop, double-click PHPManagerForIIS_V1.5.0.msi, and follow the installer’s on-screen instructions. When the setup finishes, PHP Manager will appear in the IIS console for PHP configuration.
 </p>
 
-<p>
-<img src="https://i.postimg.cc/bNPcWqNW/installing-remad.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+![Installing-remad](./images/installing-remad.png) 
+
 <p>
 Open the osTicket-Installation-Files folder on the desktop, double-click rewrite_amd64_en-US.msi, and follow the on-screen prompts. After installation, the URL Rewrite option will appear in the IIS console.
 </p>
