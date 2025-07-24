@@ -163,9 +163,10 @@ Next, secure the config file by granting write access to IIS. In File Explorer, 
 Open your browser to your osTicket site (e.g. http://localhost/osTicket), click Continue on the setup screen, and when prompted enter your administrator credentials (the email/username and password you chose during configuration).
 </p>
 
-<p>
-<img src="https://i.postimg.cc/0N0cfPgv/installing-hedi-sql.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+
+![Credentials](./images/installing-hedi-sql.png)
+
 <p>
 Next, install HeidiSQL by running its installer from the osTicket-Installation-Files folder. When HeidiSQL opens, click New Session, set Username to root and Password to root, then click Connect. Once connected, right-click on the server entry (e.g. localhost or Unnamed), choose Create new → Database, enter osTicket as the database name, and click OK.
 </p>
