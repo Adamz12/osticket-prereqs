@@ -147,9 +147,10 @@ If any PHP extensions are missing on the osTicket home page, open IIS Manager, e
 Open File Explorer and navigate to C:\inetpub\wwwroot\osTicket\include. Right-click ost-sampleconfig.php, choose Rename, and change the filename to ost-config.php. This creates your active configuration file for osTicket.
 </p>
 
-<p>
-<img src="https://i.postimg.cc/B68PvBBz/assigining-permissions.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+
+![Assigning-permissions](./images/assigining-permissions.png)
+
 <p>
 Next, secure the config file by granting write access to IIS. In File Explorer, go to C:\inetpub\wwwroot\osTicket\include, right-click ost-config.php and choose Properties. On the Security tab click Advanced, then Disable inheritance and select Convert inherited permissions into explicit permissions. Click Add, choose Select a principal, type Everyone, grant Full control, and click OK through all dialogs. This ensures IIS can read and write the config file as needed.
 </p>
