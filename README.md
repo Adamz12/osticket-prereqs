@@ -38,9 +38,9 @@ Start by provisioning an Azure VM in the osticket resource group named osticket-
 </p>
 <br />
 
-<p>
-<img src="https://i.postimg.cc/43RwXmm5/Connecting-to-rdp-19-59-07.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+![RDP Connection](./images/Connecting-to-rdp%2019.59.07.png)
+
 <p>
 Next, retrieve the VM’s public IP from the Azure portal and launch Microsoft Remote Desktop on your Mac. Create a new connection named osticket-vm, paste the IP into the PC name field, and enter your administrator credentials to log in.
 </p>
