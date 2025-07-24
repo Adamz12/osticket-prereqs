@@ -139,9 +139,10 @@ Open IIS Manager, expand Sites in the left tree, select the osTicket site, and t
 If any PHP extensions are missing on the osTicket home page, open IIS Manager, expand Sites → osTicket, then double-click PHP Manager. In Enable or Disable Extensions, check php_imap.dll, php_intl.dll, and php_opcache.dll, click Apply, and finally restart the site (or IIS) to load the new extensions.
 </p>
 
-<p>
-<img src="https://i.postimg.cc/Pqjw2Dhp/rename-file.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+
+![Rename-file](./images/rename-file.png)
+
 <p>
 Open File Explorer and navigate to C:\inetpub\wwwroot\osTicket\include. Right-click ost-sampleconfig.php, choose Rename, and change the filename to ost-config.php. This creates your active configuration file for osTicket.
 </p>
