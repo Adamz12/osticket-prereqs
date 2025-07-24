@@ -29,9 +29,10 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 <h2>Installation Steps</h2>
 
-<p>
-<img src="https://i.postimg.cc/d1vWjLF1/Creating-vm-os-Ticket.png" height="800" width="800" alt="Disk Sanitization Steps"/>
-</p>
+
+
+![Provisioning VM screenshot](./images/Creating-vm-osTicket.png)
+
 <p>
 Start by provisioning an Azure VM in the osticket resource group named osticket-vm, using the Standard_D4s_v3 SKU (4 vCPUs, 16 GiB RAM) on Windows 10 Pro 22H2. This provides a dedicated, high-performance environment for IIS, PHP, and MySQL while keeping the host machine isolated and secure.
 </p>
